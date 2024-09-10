@@ -453,17 +453,17 @@ a {
 .contact-container {
     width: 100%;
     background-color: darkcyan;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 3%;
 }
 
 .form-body {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 22%;
+    width: 47%;
+    margin-left: 27%;
     align-items: center;
     background-color: white;
     border-radius: 1ch;
+    padding-bottom: 2%;
 }
 
 .signup {
@@ -471,22 +471,34 @@ a {
     text-align: center;
     font-size: 15pt;
     font-weight: 900;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     padding-top: 3%;
 }
 
 input {
-    width: 90%;
+    width: 87%;
     color: grey;
     margin-left: 3%;
     margin-right: 5%;
-    margin-bottom: 5%;
-    margin-top: 2%;
+    margin-bottom: 1%;
     font-size: 8pt;
     padding-left: 2%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 3% 3%;
     border-radius: 1ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date {
+    width: 87%;
+    color: grey;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    font-size: 8pt;
+    padding-left: 2%;
+    padding: 3% 3%;
+    border-radius: 1ch;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .full-name, .email-address, .password, .birth-date {
@@ -494,29 +506,29 @@ input {
     font-weight: 500;
     margin-left: 3%;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .gender-box {
     width: 90%;
-    color: black;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
+    padding-top: 0%;
 }
 
-.genda {
+.gen {
     margin-left: 4%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     font-size: 9pt;
-    color: black;
-    border-radius: 1ch;
 }
 
 .gender {
     width: 108%;
     font-size: 7pt;
+    font-weight: 500;
     color: grey;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding: 3.5% 3.5%;
+    margin-top: 2%;
     border-radius: 1ch;
     border: 2px solid black;
 }
@@ -532,15 +544,17 @@ input:hover {
 }
 
 .submit {
-    width: 95%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 11pt;
-    background-color:darkcyan;
-    margin-top: 7%;
-    margin-left: 2.5%;
-    margin-bottom: 6%;
+    text-align: center;
+    width: 93%;
+    margin-left: 3.5%;
+    font-size: 12pt;
+    font-weight: 600;
+    padding: 0.3% 0.4%;
     border-radius: 1ch;
-    border: none;
+    color: white;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+    background-color: darkcyan;
 }
 
 a {
@@ -809,7 +823,7 @@ a span:nth-child(4) {
     /* contact */
     .contact-container {
         width: 100%;
-        padding-top: 2%;
+        padding-top: 0.3%;
         padding-bottom: 2%;
     }
 
@@ -817,49 +831,69 @@ a span:nth-child(4) {
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
+        padding-bottom: 1%;
     }
 
     .signup {
         width: 100%;
         font-size: 22pt;
+        padding-bottom: 0%;
     }
 
     input {
         width: 91%;
-        font-size: 13pt;
+        font-size: 11pt;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 1%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+        padding: 1.5% 1.5%;
         margin-top: 1%;
-        margin-bottom: 2.5%;
+        margin-bottom: 0.5%;
+    }
+
+    .date {
+        padding: 1.5% 1.5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11pt;
+        width: 91%;
+        margin-top: 0/5%;
     }
 
     .gender-box {
-        padding-top: 1.5%;
-        padding-bottom: 1%;
+        padding-top: 0%;
+        padding-bottom: 6%;
     }
 
     .gender {
-        width: 108%;
-        font-size: 12pt;
+        width: 109%;
+        font-size: 11pt;
         font-family: Arial, Helvetica, sans-serif;
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
+        padding: 1.6% 1.6%;
         margin-top: 1%;
     }
 
-    .full-name, .email-address, .password, .birth-date, .genda {
+    .full-name, .email-address, .password, .birth-date, .gen {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 11pt;
         font-weight: 700;
+        margin-bottom: 0%;
     }
 
-    a {
-        font-size: 16pt;
+    .submit {
+        width: 94%;
+        margin-left: 3%;
+        font-size: 14pt;
         font-weight: 600;
-        padding-top: 1%;
-        padding-top: 1%;
+        padding: 0.1% 0.1%;
+        color: white;
+        margin-top: 1.2%;
+        margin-bottom: 1.2%;
+    }
+
+    .list {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        color: grey;
+        font-size: 11pt;
     }
 
     span:nth-child(1), span:nth-child(2), span:nth-child(3), span:nth-child(4) {
